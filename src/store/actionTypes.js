@@ -1,0 +1,19 @@
+export const ADD_ERROR = "ADD_ERROR";
+export const REMOVE_ERROR = "REMOVE_ERROR";
+
+export const ADD_INFO_MESSAGE = "ADD_INFO_MESSAGE";
+export const REMOVE_INFO_MESSAGE = "REMOVE_INFO_MESSAGE";
+
+export const CREATE_USER = "CREATE_USER";
+export const SET_USER_SOCKET_ID = "SET_USER_SOCKET_ID";
+export const SET_USER_AVATAR = "SET_USER_AVATAR";
+
+export const ACTIVE_USERS = "ACTIVE_USERS";
+export const ADD_ACTIVE_USER = "ADD_ACTIVE_USER";
+export const REMOVE_ACTIVE_USER = "REMOVE_ACITVE_USER";
+
+export const CREATE_ROOM = "CREATE_ROOM";
+export const SET_CURRENT_ROOM = "SET_CURRENT_ROOM";
+
+export const NEW_MESSAGE = "NEW_MESSAGE";
+export const LOAD_MESSAGES = "LOAD_MESSAGES";

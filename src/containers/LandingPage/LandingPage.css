@@ -1,0 +1,216 @@
+.main-landing-page {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+}
+
+.landing-page {
+	display: flex;
+	height: 17rem;
+	margin-top: 25vh;
+	flex-direction: column;
+	align-items: center;
+	background-color: #1c1b1b;
+}
+
+.landing-page-info {
+	text-align: center;
+	font-size: 1.2rem;
+	padding: 3rem 1.5rem;
+	color: white;
+}
+
+.landing-page-form {
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0.5rem;
+}
+
+.landing-page-button {
+	background-color: #383838;
+	margin-bottom: 2rem;
+	padding: 1.2rem 4rem;
+	border: none;
+	outline: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.7rem;
+	cursor: pointer;
+}
+
+.landing-page-button:hover {
+	background-color: #1d77cd;
+	border: 3px solid white;
+}
+
+.landing-page-button:active {
+	background-color: #0f7be0;
+	margin-top: 1rem;
+}
+
+@media screen and (min-width: 320px) {
+	.landing-page-info {
+		font-size: 1.3rem;
+		padding: 3rem 1.7rem;
+	}
+
+	.landing-page-button {
+		padding: 1.3rem 7rem;
+	}
+}
+
+@media screen and (min-width: 360px) {
+	.landing-page-info {
+		font-size: 1.5rem;
+	}
+
+	.landing-page-button {
+		padding: 1.3rem 8rem;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.landing-page {
+		width: 90%;
+	}
+
+	.landing-page-info {
+		font-size: 1.7rem;
+		padding: 1.7rem;
+	}
+
+	.landing-page-form {
+		margin-bottom: 1rem;
+	}
+
+	.landing-page-button {
+		font-size: 1.8rem;
+		padding: 1.5rem 10rem;
+	}
+}
+
+@media screen and (min-width: 520px) {
+	.landing-page {
+		width: 45rem;
+	}
+
+	.landing-page-info {
+		font-size: 1.7rem;
+		padding: 1.7rem;
+	}
+
+	.landing-page-form {
+		margin-bottom: 1.5rem;
+	}
+
+	.landing-page-button {
+		font-size: 2rem;
+		padding: 1.5rem 10rem;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.landing-page {
+		width: 48rem;
+	}
+
+	.landing-page-info {
+		padding: 2rem;
+	}
+
+	.landing-page-form {
+		margin-bottom: 1.8rem;
+	}
+
+	.landing-page-button {
+		padding: 1.5rem 8rem;
+	}
+}
+
+@media screen and (min-width: 720px) {
+	.landing-page {
+		margin-top: 30vh;
+		width: 50rem;
+		height: 33vh;
+	}
+
+	.landing-page-info {
+		font-size: 1.7rem;
+	}
+
+	.landing-page-form {
+		margin-bottom: 1.5rem;
+	}
+
+	.landing-page-button {
+		padding: 1.5rem 9rem;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.landing-page {
+		height: 35vh;
+	}
+
+	.landing-page-info {
+		font-size: 1.8rem;
+	}
+
+	.landing-page-button {
+		font-size: 2.2rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.landing-page {
+		height: 38vh;
+	}
+
+	.landing-page {
+		width: 55rem;
+		margin-top: 0;
+		align-self: center;
+	}
+	.landing-page-info {
+		font-size: 2rem;
+		padding: 2.3rem;
+	}
+
+	.landing-page-form {
+		margin-bottom: 2rem;
+	}
+
+	.landing-page-button {
+		font-size: 2.4rem;
+		padding: 2rem 8rem;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.landing-page {
+		height: 40vh;
+	}
+}
+
+@media screen and (min-width: 1366px) {
+	.landing-page {
+		width: 60rem;
+		height: 43vh;
+	}
+	.landing-page-info {
+		font-size: 2.5rem;
+	}
+
+	.landing-page-form {
+		margin-bottom: 1.8rem;
+	}
+
+	.landing-page-button {
+		font-size: 2.5rem;
+		padding: 2.3rem 9rem;
+	}
+}
