@@ -64,7 +64,9 @@ class Messenger extends Component {
 
 		socket.on("messageToRoom", (message) => {
 			const { createRoom } = this.props;
+			console.log("BEFORE SAVe");
 			if (message.save) {
+				console.log("SAVE METHOD");
 				newMessage(true, message);
 			} else {
 				createRoom(false, { to: message.from, from: message.to });
@@ -87,6 +89,7 @@ class Messenger extends Component {
 
 	sendMessage = (message) => {
 		const { socket } = this.state;
+		console.log("MSG", message);
 		socket.emit("sendMessage", message, (err) => {
 			if (err?.length > 0) {
 				removeInfoMessage();
